@@ -1,8 +1,8 @@
 {
-  "name": "react-boiler",
+  "name": "ReactReduxStarter",
   "version": "1.0.0",
   "description": "Scaffold your full stack react apps today!",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "build": "NODE_ENV=production npm run clean && webpack -p",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iwilsonq/react-boiler.git"
+    "url": "git+https://github.com/iwilsonq/ReactReduxStarter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iwilsonq/react-boiler/issues"
+    "url": "https://github.com/iwilsonq/ReactReduxStarter/issues"
   },
-  "homepage": "https://github.com/iwilsonq/react-boiler#readme",
+  "homepage": "https://github.com/iwilsonq/ReactReduxStarter#readme",
   "dependencies": {
     "express": "^4.14.0",
     "nodemon": "^1.11.0",
@@ -36,6 +36,8 @@
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.0-rc.0",
     "webpack-dev-middleware": "^1.9.0"
